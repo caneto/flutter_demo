@@ -3,12 +3,19 @@
 ### Bibliotecas e tecnologias 
 
 -pdf - 3.10.1
+
 -pdf_view_plugin - 2.0.1
+
 -path_provider - 2.0.14
+
 -phone_state - 1.0.2
+
 -toast - 0.3.0
+
 -flutter_email_sender - 5.2.0
+
 -easy_localization - 3.0.1
+
 
 
 <h2>📝 Licença</h2>
