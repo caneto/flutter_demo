@@ -1,0 +1,46 @@
+name: flutterexamples
+description: Demo de Flutter de diversos packages.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.9.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.5
+  easy_localization: ^3.0.1
+  flutter_email_sender: ^5.2.0
+  image_picker: ^0.8.7+1
+  multi_image_picker: ^4.8.1
+  pdf: ^3.10.1
+  pdf_viewer_plugin: ^2.0.1
+  path_provider: ^2.0.14
+  phone_state: ^1.0.2
+  toast: ^0.3.0
+  http: ^0.13.5
+  provider: ^6.0.5
+  url_launcher: ^6.1.10
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/locales/
+    - assets/images/
+    - assets/images/icons/
+
+
+
