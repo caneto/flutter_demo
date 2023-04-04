@@ -1,16 +1,21 @@
-# flutterexamples
+# Demostração de Diversos packages em Flutter
 
-A new Flutter application.
+### Bibliotecas e tecnologias 
 
-## Getting Started
+-pdf - 3.10.1
+-pdf_view_plugin - 2.0.1
+-path_provider - 2.0.14
+-phone_state - 1.0.2
+-toast - 0.3.0
+-flutter_email_sender - 5.2.0
+-easy_localization - 3.0.1
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<h2>📝 Licença</h2>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<p>
+   Esse repositório está sobre a Licença GNU General Public License v3.0, e você pode vê-la no arquivo <a href="https://github.com/caneto/calculator-app/blob/main/LICENSE">LICENSE</a> para mais detalhes. 😉
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+[![Linkedin Badge](https://img.shields.io/badge/-Carlos%20Alberto-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/canetorj/)](https://www.linkedin.com/in/canetorj/)
