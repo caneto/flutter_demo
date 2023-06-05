@@ -28,6 +28,9 @@ dependencies:
   url_launcher: ^6.1.10
   animate_gradient: ^0.0.2
 
+  font_awesome_flutter: ^10.4.0
+  persistent_bottom_nav_bar: ^5.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
