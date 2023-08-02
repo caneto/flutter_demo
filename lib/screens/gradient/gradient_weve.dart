@@ -8,8 +8,8 @@ class AnimatedGradientWave extends StatefulWidget {
 
 class _AnimatedGradientWaveState extends State<AnimatedGradientWave> with SingleTickerProviderStateMixin {
   
-  AnimationController _controller;
-  Animation<double> _animation;
+  late AnimationController _controller;
+  late Animation<double> _animation;
   
   @override
   void initState() {
@@ -48,7 +48,7 @@ class _AnimatedGradientWaveState extends State<AnimatedGradientWave> with Single
 class WavePainter extends CustomPainter {
   final double animationValue;
 
-  WavePainter({this.animationValue});
+  WavePainter({required this.animationValue});
   
   @override
   void paint(Canvas canvas, Size size) {

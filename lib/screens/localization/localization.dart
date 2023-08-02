@@ -95,23 +95,7 @@ class _TranslationDemoState extends State<TranslationDemo> {
                             padding: EdgeInsets.only(left: 4, right: 4),
                             color: Colors.transparent,
                           ),
-                          onChanged: (String newValue) {
-                            setState(() {
-                              if (newValue == 'English - UK') {
-                                this.setState(() {
-                                  dropdownValue = 'English - UK';
-                                  icon = "uk.png";
-                                  context.setLocale(Locale('en', 'UK'));
-                                });
-                              } else if (newValue == 'Spanish - ES') {
-                                this.setState(() {
-                                  dropdownValue = 'Spanish - ES';
-                                  icon = "es.png";
-                                  context.setLocale(Locale('es', 'SP'));
-                                });
-                              }
-                            });
-                          },
+                          onChanged: change(dropdownValue),
                           items: <String>['English - UK', 'Spanish - ES']
                               .map<DropdownMenuItem<String>>((String value) {
                             return DropdownMenuItem<String>(
@@ -143,4 +127,24 @@ class _TranslationDemoState extends State<TranslationDemo> {
       ),
     );
   }
+
+  change(String newValue) {
+    setState(() {
+      if (newValue == 'English - UK') {
+        this.setState(() {
+          dropdownValue = 'English - UK';
+          icon = "uk.png";
+          context.setLocale(Locale('en', 'UK'));
+        });
+      } else if (newValue == 'Spanish - ES') {
+        this.setState(() {
+          dropdownValue = 'Spanish - ES';
+          icon = "es.png";
+          context.setLocale(Locale('es', 'SP'));
+        });
+      }
+    });
+  }
+  
+  
 }

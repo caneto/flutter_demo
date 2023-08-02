@@ -1,9 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterexamples/screens/gradient/gradient_page.dart';
-import 'package:flutterexamples/screens/gradient/gradient_weve.dart';
 
-import 'screens/localization/localization.dart';
+import 'screens/gradient/wave_animation.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +26,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
-      home: AnimatedGradientWave(),
+      home: FlutterFluxApp(),
     );
   }
 }

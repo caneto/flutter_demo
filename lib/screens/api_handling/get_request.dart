@@ -78,7 +78,7 @@ class _ProviderDemoScreenState extends State<ProviderDemoScreen> {
 }
 
 Future<PostModel> getSinglePostData(context) async {
-  PostModel result;
+  PostModel result = PostModel();
   try {
     final response = await http.get(
       Uri.https("https://jsonplaceholder.typicode.com/posts/1"),
@@ -94,16 +94,16 @@ Future<PostModel> getSinglePostData(context) async {
           duration: 2, backgroundColor: Colors.redAccent);
     }
   } catch (e) {
-    log(e);
+    log(e.toString());
   }
   return result;
 }
 
 class PostModel {
-  final int id;
-  final int userId;
-  final String title;
-  final String body;
+  final int? id;
+  final int? userId;
+  final String? title;
+  final String? body;
 
   PostModel({this.id, this.userId, this.title, this.body});
 

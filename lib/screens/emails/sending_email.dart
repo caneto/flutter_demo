@@ -115,9 +115,9 @@ class _MyAppState extends State<MyApp> {
                 contentPadding:
                     EdgeInsets.symmetric(vertical: 0.0, horizontal: 8.0),
                 title: Text('HTML'),
-                onChanged: (bool value) {
+                onChanged: (bool? value) {
                   setState(() {
-                    isHTML = value;
+                    isHTML = value!;
                   });
                 },
                 value: isHTML,
