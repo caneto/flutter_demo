@@ -33,7 +33,7 @@ class _AnimatedGradientWaveState extends State<AnimatedGradientWave> with Single
             center: Alignment.center,
             colors: [
               Colors.amber,
-              Colors.deepPurple,
+              Colors.blue,
             ],
             stops: [_animation.value - 0.2, _animation.value],
           ),
@@ -53,7 +53,7 @@ class WavePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final path = Path();
-    final whitePaint = Paint()..color = Colors.white;
+    final whitePaint = Paint()..color = Colors.white54;
     final width = size.width;
     final height = size.height;
     final midHeight = height / 2;
