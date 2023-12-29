@@ -16,7 +16,7 @@
 
 -image_picker - 0.8.9
 
-- http - 0.13.5
+-http - 0.13.5
 
 -provider - 6.0.5
 
