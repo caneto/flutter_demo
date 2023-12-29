@@ -14,9 +14,25 @@
 
 -flutter_email_sender - 5.2.0
 
+-image_picker - 0.8.9
+
+- http - 0.13.5
+
+-provider - 6.0.5
+
+-url_launcher - 6.1.10
+
 -easy_localization - 3.0.1
 
+-animate_gradient - 0.0.2+1
 
+-font_awesome_flutter - 10.4.0
+
+-persistent_bottom_nav_bar - 5.0.2
+
+-flutter_calendar_carousel - 2.4.2
+
+-intl - 0.18.1
 
 <h2>📝 Licença</h2>
 
