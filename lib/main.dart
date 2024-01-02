@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterexamples/screens/calendar/calendar.dart';
+import 'package:flutterexamples/screens/customCircular/custom_circular.dart';
+//import 'package:flutterexamples/screens/calendar/calendar.dart';
 //import 'package:flutterexamples/screens/gradient/gradient_weve.dart';
 
 void main() async {
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
       locale: context.locale,
       //home: FlutterFluxApp(),
       // home: AnimatedGradientWave(),
-      home: Calendar(),
+      //home: Calendar(),
+      home: CustomCircular(),
     );
   }
 }
